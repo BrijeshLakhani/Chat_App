@@ -1,9 +1,19 @@
 import React from "react";
+import Sidebar from "./Sidebar";
 
 const Main = () => {
     return (
         <>
-            <h1>Helllo Dev</h1>
+        <div className ="app"> 
+            <div className="app__body">
+                {/* Sidebar */}
+                <Sidebar/>
+
+                {/* chatbar */}
+
+            </div>  
+          
+        </div>
         </>
     )
 }
