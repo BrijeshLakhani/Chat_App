@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import DonutLargeIcon from "@mui/icons-material/DonutLarge"
 import ChatIcon from "@mui/icons-material/Chat"
 import MoreVerticon from "@mui/icons-material/MoreVert"
@@ -7,8 +7,19 @@ import SearchIcon from "@mui/icons-material/Search"
 import { IconButton } from "@mui/material"
 import SidebarChat from "./SidebarChat"
 
-
 function Sidebar() {
+// const [rooms , setRooms ] = useState([]);
+//     useEffect(()=>{
+//         db.collection("rooms").onSnapshot(snapshot=>{
+//             setRooms(snapshot.doc.map(doc=>({
+//                 id:doc.id, 
+//                 data:doc.data() 
+//             })))
+//         })
+//     },[])
+
+    // console.log(rooms);
+
     return (
         <div className="Sidebar">
             <div className="Sidebar__header">
@@ -51,4 +62,5 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+
+export default Sidebar 
