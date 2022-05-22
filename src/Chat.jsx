@@ -12,9 +12,8 @@ function Chat() {
     <div className="Chat">
         <div className="chat__header">
         <Avatar/>
-        <div className="chat__headreInfo">
-            <h3>Room name</h3>
-            
+        <div className="chat__headerInfo">
+            <h3>HR</h3>
             <p>Last seen...</p>
         </div>
         <div className="header__right">

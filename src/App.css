@@ -5,20 +5,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.app {
-  height: 100vh;
-  background-color: #dadbd3;
-  display: grid;
-  place-items: center;
 
-}
 .app__body {
-  height: 90vh;
-  width: 90vw;
-  background-color: #f1f1f1;
-  box-shadow: -1px 4px 20px -6px rgb(57, 7, 237);
-  display: flex;
-  
+  height: 100vh;
+  width: 100vw;
+  display: flex; 
 }
 
 .Sidebar {
@@ -37,14 +28,14 @@ body {
   color: lightgray;
 }
 
-.Sidebar__headreRight {
+.Sidebar__headerRight {
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-width: 10vw;
 }
 
-.Sidebar__headreRight {
+.Sidebar__headerRight {
   font-size: 18px;
 }
 
@@ -133,17 +124,17 @@ body {
   padding: 10px;
 }
 
-.chat__headreInfo {
+.chat__headerInfo {
   flex: 1;
   margin-left: 10px;
 }
 
-.chat__headreInfo h3 {
+.chat__headerInfo h3 {
   font-size: 16px;
   color: white;
 }
 
-.chat__headreInfo p {
+.chat__headerInfo p {
   font-size: 12px;
   color: lightgrey;
 }
