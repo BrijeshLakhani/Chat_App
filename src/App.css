@@ -22,14 +22,14 @@ body {
 }
 
 .Sidebar {
-  flex: 0.35;
+  flex: 0.25;
   background-color: rgb(5, 73, 161);
 }
 
 .Sidebar__header {
   display: flex;
   justify-content: space-between;
-  border-right: 1px solid lightgray;
+  border-right: 1px solid  rgba(10, 6, 95, 0.954);
   padding: 10px;
   background-color: rgba(10, 6, 95, 0.954)
 }
@@ -89,7 +89,7 @@ body {
 
 .sidebar__chats:hover {
   cursor: pointer;
-  background-color: antiquewhite;
+  background-color: rgb(24, 181, 244);
 }
 
 .sidebar__chatinfo {
@@ -118,7 +118,7 @@ body {
 }
 
 .Chat {
-  flex: 0.65;
+  flex: 0.75;
   flex-direction: column;
   display: flex;
   background-color: rgba(10, 6, 95, 0.954);
