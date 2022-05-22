@@ -50,10 +50,7 @@ function Sidebar() {
                 </div>
             </div>
             <div className="sidebar__Chats">
-                <SidebarChat addnewchat/>
-                <SidebarChat/>
-                <SidebarChat/>
-                <SidebarChat/>
+                <SidebarChat addnewchat name="IT"/>
                 <SidebarChat/>
                 <SidebarChat/>
             </div>

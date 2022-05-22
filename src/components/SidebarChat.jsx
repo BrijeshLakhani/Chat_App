@@ -3,11 +3,11 @@ import React from 'react'
 
 function SidebarChat({addnewchat}) {
   return (
-    !addnewchat ? (
+    !addnewchat  ? (
       <div className="sidebar__chats">
         <Avatar/>
         <div className="sidebar__chatinfo">
-        <h2>React turorials</h2>
+        <h2>{prpos.name}</h2>
         <p>Last message seen....</p>
         </div>
       </div>
