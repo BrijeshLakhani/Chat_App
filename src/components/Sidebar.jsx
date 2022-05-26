@@ -6,6 +6,7 @@ import Avatar from "@mui/material/Avatar"
 import SearchIcon from "@mui/icons-material/Search"
 import { IconButton } from "@mui/material"
 import SidebarChat from "./SidebarChat"
+import PersonAddIcon from "@mui/icons-material/PersonAdd"
 
 function Sidebar() {
 // const [rooms , setRooms ] = useState([]);
@@ -18,7 +19,7 @@ function Sidebar() {
 //         })
 //     },[])
 
-    // console.log(rooms);
+//     console.log(rooms);
 
     return (
         <div className="Sidebar">
@@ -50,9 +51,10 @@ function Sidebar() {
                 </div>
             </div>
             <div className="sidebar__Chats">
-                <SidebarChat name="HR"/>
-                <SidebarChat name="Sales"/>
-                <SidebarChat name="Admin"/>
+                <SidebarChat addnewchat/>
+                <SidebarChat />
+                <SidebarChat />
+                <SidebarChat />
             </div>
         </div>
 

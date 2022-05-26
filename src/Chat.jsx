@@ -5,6 +5,7 @@ import AttachmentIcon from '@mui/icons-material/Attachment'
 import MoreVertIcon from '@mui/icons-material/MoreVert'
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions'
 import MicIcon from '@mui/icons-material/Mic'
+import PersonAddIcon from '@mui/icons-material/PersonAdd'
 import SendIcon from '@mui/icons-material/Send'
 
 function Chat() {

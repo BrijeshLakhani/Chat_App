@@ -69,6 +69,19 @@ body {
   display: flex;
   background-color:  rgb(5, 73, 161);
   flex-direction: column;
+  
+}
+
+.sidebar__Chats svg {
+  color: lightgray;
+  width: 35px;
+  height: 35px;
+}
+
+.sidebar__Chats h1 {
+  color: lightcyan;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .sidebar__chats {

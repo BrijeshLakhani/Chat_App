@@ -1,17 +1,25 @@
 import { Avatar } from '@mui/material'
+import PersonAddIcon from '@mui/icons-material/PersonAdd'
 import React from 'react'
 
-function SidebarChat(props) {
+function SidebarChat( {addnewchat} ) {
   return (
-
-    <div className="sidebar__chats">
-      <Avatar />
+    !addnewchat ? (
+      <div className="sidebar__chats">
+      <Avatar/>
       <div className="sidebar__chatinfo">
-        <h2>{props.name}</h2>
+        <h2>Hello </h2>
         <p>Last message seen....</p>
       </div>
     </div>
+    ) : (
 
+    <div className="sidebar__chats">
+      <PersonAddIcon/>
+      <h1> Add New chat </h1>
+    </div>
+      
+  )
   )
 
 }
