@@ -45,16 +45,16 @@ function Sidebar() {
             </div>
 
             <div className="Sidebar__search">   
-                <div className="Sidebar__searchContainer">            
+                <div className="Sidebar__searchContainer">        
                     <SearchIcon/>
                     <input type="text" placeholder="search or start a new chat"></input> 
                 </div>
             </div>
             <div className="sidebar__Chats">
                 <SidebarChat addnewchat/>
-                <SidebarChat />
-                <SidebarChat />
-                <SidebarChat />
+                <SidebarChat name="HR"/>
+                <SidebarChat name="Admin"/>
+                <SidebarChat name="Brijesh Lakhani"/>
             </div>
         </div>
 
